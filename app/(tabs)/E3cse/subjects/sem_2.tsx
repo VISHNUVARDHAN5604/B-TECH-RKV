@@ -79,7 +79,7 @@ const Sem1 = () => {
 
               {subject === 'CNS' && (
                 <View style={styles.noteContainer}>
-                  <Text style={styles.note}>NOTE</Text>
+                  <Text style={styles.note}>UNIT'S LIST:-</Text>
                   <Text style={styles.noteText}>
                     {`1 = INTRODUCTION TO SECURITY ATTACKS
 2 = CONFIENDNTALITY USING ENCRIPTION
@@ -93,7 +93,7 @@ const Sem1 = () => {
 
               {subject === 'CDC' && (
                 <View style={styles.noteContainer}>
-                  <Text style={styles.note}>NOTE</Text>
+                  <Text style={styles.note}>UNIT'S LIST:-</Text>
                   <Text style={styles.noteText}>
                     {`1 = NUMBER SYSTEM
 2 = ARITHMETIC,ALGEBRA
@@ -107,7 +107,7 @@ const Sem1 = () => {
 
               {subject === 'ST' && (
                 <View style={styles.noteContainer}>
-                  <Text style={styles.note}>NOTE</Text>
+                  <Text style={styles.note}>UNIT'S LIST:-</Text>
                   <Text style={styles.noteText}>
                     {`1 = INTRODUCTION TO SOFTWARE TESTING
 2 = INTRODUCTION TO SOFTWARE DEFECTS

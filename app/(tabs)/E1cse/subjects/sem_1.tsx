@@ -3,20 +3,18 @@ import React, { useState } from 'react';
 import { MaterialIcons } from '@expo/vector-icons';
 
 if (Platform.OS === 'android' && UIManager.setLayoutAnimationEnabledExperimental) {
-  UIManager.setLayoutAnimationEnabledExperimental(true);
-}
+  UIManager.setLayoutAnimationEnabledExperimental(true);}
 
 const Sem1 = () => {
   const [visibleUnits, setVisibleUnits] = useState<string | null>(null);
 
   const toggleUnits = (subject: string) => {
     LayoutAnimation.configureNext(LayoutAnimation.Presets.easeInEaseOut);
-    setVisibleUnits(visibleUnits === subject ? null : subject);
-  };
+    setVisibleUnits(visibleUnits === subject ? null : subject); };
 
   const subjects = ['CLA', 'PSPC', 'BEEE'];
 
-  const unitLinks: Record<string, Record<string, string>> = {
+  const unitLinks: Record<string, Record<string,string>> = {
     CLA: {
       'Unit 1': 'https://drive.google.com/file/d/1LFzZ0b0iLrd1ajjq9cPW1MdiF5FmtCxF/view?usp=drive_link',
       'Unit 2': 'https://drive.google.com/file/d/1OiMor6CzS_zR4QGF4sRCS1SxOcj0UpOJ/view?usp=drive_link',
@@ -50,8 +48,7 @@ const Sem1 = () => {
       Linking.openURL(link);
     } else {
       Alert.alert('Notice', `${unit} link for ${subject} is not available`);
-    }
-  };
+    }};
 
   return (
     <ScrollView contentContainerStyle={styles.scrollContainer}>
@@ -83,7 +80,7 @@ const Sem1 = () => {
             </View>
             {subject === 'CLA' && (
                             <View style={styles.noteContainer}>
-                              <Text style={styles.note}>NOTE</Text>
+                              <Text style={styles.note}>UNIT'S LIST:-</Text>
                               <Text style={styles.noteText}>
                               {`1 =DIFFRENTIAL EQUATIONS OF FIRST ORDER AND FIRST DEGREE
 2 = FUNCTIONS OF SEVERAL VARIABLES
@@ -96,7 +93,7 @@ const Sem1 = () => {
                           )}
             {subject === 'PSPC' && (
                             <View style={styles.noteContainer}>
-                              <Text style={styles.note}>NOTE</Text>
+                              <Text style={styles.note}>UNIT'S LIST:-</Text>
                               <Text style={styles.noteText}>
                               {`1 = INTRODUCTION TO COMPUTER PROGRAMMING
 2 = CONDITIONAL STATEMENTS AND LOOPS

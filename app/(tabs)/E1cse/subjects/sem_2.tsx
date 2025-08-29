@@ -55,10 +55,10 @@ const Sem1 = () => {
       'Unit 6': 'https://drive.google.com/file/d/12jEOGONiUvRFUU3igwkwPyHZK8NNF3Uy/view?usp=drivesdk',
     },
     MEFA: {
-      'Unit 1': '',
+      'Unit 1': 'https://drive.google.com/file/d/159vijzDXAleoWmQcq-jpEppoMz0hQkL4/view?usp=drive_link',
       'Unit 2': 'https://drive.google.com/file/d/13AoqoYs3Bt-9Cv3DqG65cDBcrtijPuiO/view?usp=drive_link',
       'Unit 3': 'https://drive.google.com/file/d/13Ax6sovrMV4eWCI5Ym9A3xWNjz-DDo_T/view?usp=drive_link',
-      'Unit 4': '',
+      'Unit 4': 'https://drive.google.com/file/d/150_9dpwnDLEBnkKNSLricTjwU6oqAqVp/view?usp=drive_link',
       'Unit 5': 'https://drive.google.com/file/d/13HnEu6HoehfCLtrUupFrafL0JSTI-YQR/view?usp=drive_link',
       'Unit 6': 'https://drive.google.com/file/d/13HvPIeFHj3zyOYrwnGkmXjU64XgV9_rJ/view?usp=drive_link',
     },
@@ -113,7 +113,7 @@ const Sem1 = () => {
 
               {subject === 'EP' && (
                 <View style={styles.noteContainer}>
-                  <Text style={styles.note}>NOTE</Text>
+                  <Text style={styles.note}>UNIT'S LIST:-</Text>
                   <Text style={styles.noteText}>
                     
                     {`1 = OSCILATION
@@ -127,7 +127,7 @@ const Sem1 = () => {
               )}
               {subject === 'MEFA' && (
                 <View style={styles.noteContainer}>
-                  <Text style={styles.note}>NOTE</Text>
+                  <Text style={styles.note}>UNIT'S LIST:-</Text>
                   <Text style={styles.noteText}>
                     {`1 = INTRODUCTION TO MANAGERIAL ECONOMICS
 2 = THEORY OF PRODUCTION
@@ -140,7 +140,7 @@ const Sem1 = () => {
               )}
               {subject === 'OOPS' && (
                 <View style={styles.noteContainer}>
-                  <Text style={styles.note}>NOTE</Text>
+                  <Text style={styles.note}>UNIT'S LIST:-</Text>
                   <Text style={styles.noteText}>
                     
                     {`1 = INTRODUCTION
@@ -154,7 +154,7 @@ const Sem1 = () => {
               )}
               {subject === 'DM' && (
                 <View style={styles.noteContainer}>
-                  <Text style={styles.note}>NOTE</Text>
+                  <Text style={styles.note}>UNIT'S LIST:-</Text>
                   <Text style={styles.noteText}>
                   {`1 = PRAPORTIONAL LOGIC
 2 = PROOF TECHNIQUES
@@ -165,18 +165,10 @@ const Sem1 = () => {
                   </Text>
                 </View>
               )}
+              
               {subject === 'DS' && (
                 <View style={styles.noteContainer}>
-                  <Text style={styles.note}>IMP NOTE</Text>
-                  <Text style={styles.noteText}>
-                    :- In E1S2 Data Structures subject the whole content is
-                    available in Unit-1
-                  </Text>
-                </View>
-              )}
-              {subject === 'DS' && (
-                <View style={styles.noteContainer}>
-                  <Text style={styles.note}>NOTE</Text>
+                  <Text style={styles.note}>UNIT'S LIST:-</Text>
                   <Text style={styles.noteText}>
                     {`1 = LINEAR AND NON-LINEAR DS
 2 = STACK 

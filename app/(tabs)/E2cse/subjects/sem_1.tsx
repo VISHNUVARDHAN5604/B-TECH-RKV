@@ -14,44 +14,44 @@ const Sem1 = () => {
 
   const unitLinks: Record<string, Record<string, string>> = {
     PS: {
-      'Unit 1': '',
-      'Unit 2': '',
-      'Unit 3': '',
-      'Unit 4': '',
-      'Unit 5': '',
-      'Unit 6': '',
+      'Unit 1': 'https://drive.google.com/file/d/1BPfrMplPg-4CHEIsay7wdvih8rsqX_mP/view?usp=drive_link',
+      'Unit 2': 'https://drive.google.com/file/d/1BPfrMplPg-4CHEIsay7wdvih8rsqX_mP/view?usp=drive_link',
+      'Unit 3': 'https://drive.google.com/file/d/1BPfrMplPg-4CHEIsay7wdvih8rsqX_mP/view?usp=drive_link',
+      'Unit 4': 'https://drive.google.com/file/d/1BPfrMplPg-4CHEIsay7wdvih8rsqX_mP/view?usp=drive_link',
+      'Unit 5': 'https://drive.google.com/file/d/1hWYtAwudjA_qyk9XqZx1JbwpFajSrryc/view?usp=drive_link',
+      'Unit 6': 'https://drive.google.com/file/d/1hWYtAwudjA_qyk9XqZx1JbwpFajSrryc/view?usp=drive_link',
     },
     DBMS: {
-      'Unit 1': '',
-      'Unit 2': '',
-      'Unit 3': '',
-      'Unit 4': '',
-      'Unit 5': '',
-      'Unit 6': '',
+      'Unit 1': 'https://drive.google.com/file/d/11mP6T_uV-1JTlo2edYDI0WvuqjjGRSj6/view?usp=drive_link',
+      'Unit 2': 'https://drive.google.com/file/d/1YwcfA3Cj4_46PbRAaGyBZEWNm46o-yBH/view?usp=drive_link',
+      'Unit 3': 'https://drive.google.com/file/d/11mP6T_uV-1JTlo2edYDI0WvuqjjGRSj6/view?usp=drive_link',
+      'Unit 4': 'https://drive.google.com/file/d/1i505bLA30CSIGwir7lTmJeJdxDWwjDNw/view?usp=drive_link',
+      'Unit 5': 'https://drive.google.com/file/d/11mP6T_uV-1JTlo2edYDI0WvuqjjGRSj6/view?usp=drive_link',
+      'Unit 6': 'https://drive.google.com/file/d/1cHNUG8-VWpnFF-5Bf371H2DLxI34RCo4/view?usp=drive_link',
     },
     FLAT: {
-      'Unit 1': '',
-      'Unit 2': '',
-      'Unit 3': '',
-      'Unit 4': '',
-      'Unit 5': '',
-      'Unit 6': '',
+      'Unit 1': 'https://drive.google.com/file/d/14WVRI82cOSwaXrvQjcfHHI7U2Cb3b1oI/view?usp=drive_link',
+      'Unit 2': 'https://drive.google.com/file/d/14Icor8hm5OJ11e7w9MzHQb0OY2NfnfS9/view?usp=drive_link',
+      'Unit 3': 'https://drive.google.com/file/d/14JmLma95_pn-tFA8omCxJTMVNMivMKEG/view?usp=drive_link',
+      'Unit 4': 'https://drive.google.com/file/d/14UrsGzGTUtnLEirtm-vG2EsWeIAui365/view?usp=drive_link',
+      'Unit 5': 'https://drive.google.com/file/d/1yqKmMdyBth92IYvU6sdzocirNsP8kUOk/view?usp=drive_link',
+      'Unit 6': 'https://drive.google.com/file/d/1yqKmMdyBth92IYvU6sdzocirNsP8kUOk/view?usp=drive_link',
     },
     DLD: {
-      'Unit 1': '',
-      'Unit 2': '',
+      'Unit 1': 'https://drive.google.com/file/d/1sTfqGCIG7Gw09xrq3IAMdNF9979AfXxM/view?usp=drive_link',
+      'Unit 2': 'https://drive.google.com/file/d/1mjDa0hJPmGAwsIMlgpxe7QZ-bpLm-JFI/view?usp=drive_link',
       'Unit 3': '',
-      'Unit 4': '',
-      'Unit 5': '',
-      'Unit 6': '',
+      'Unit 4': 'https://drive.google.com/file/d/1j9Go9aRv3huMLY9YWJGaXYZDkjX_qaGJ/view?usp=drive_link',
+      'Unit 5': 'https://drive.google.com/file/d/1j9WbgHcyBzZKg80XZZIOTnv8OxqL8ch8/view?usp=drive_link',
+      'Unit 6': 'https://drive.google.com/file/d/1puxkxyvtUJfs2Nl_mRAVY09zk8tCyoXo/view?usp=drive_link',
     },
     DAA: {
-      'Unit 1': '',
-      'Unit 2': '',
-      'Unit 3': '',
-      'Unit 4': '',
-      'Unit 5': '',
-      'Unit 6': '',
+      'Unit 1': 'https://drive.google.com/file/d/1WmW-aJTRWt2XguHVGkjM41H3uANpJcgJ/view?usp=drive_link',
+      'Unit 2': 'https://drive.google.com/file/d/13veH85GkTL62npPOLup1lk-mAzEHUwYp/view?usp=drive_link',
+      'Unit 3': 'https://drive.google.com/file/d/1WjFDJTK4dpqFZ5k1ZO7ASrS-RFvauloT/view?usp=drive_link',
+      'Unit 4': 'https://drive.google.com/file/d/18XbY1qW670z573Rx7sexgbV6t5ILR1Fh/view?usp=drive_link',
+      'Unit 5': 'https://drive.google.com/file/d/14gZ5KDa9y4LweARXYms1HnSFHJF_uWDo/view?usp=drive_link',
+      'Unit 6': 'https://drive.google.com/file/d/14cPvwNqEBAkT0KURQQFZjZELpZIrUUMv/view?usp=drive_link',
     },
   };
 
@@ -95,7 +95,7 @@ const Sem1 = () => {
 
               {subject === 'DAA' && (
                 <View style={styles.noteContainer}>
-                  <Text style={styles.note}>NOTE</Text>
+                  <Text style={styles.note}>UNIT'S LIST:-</Text>
                   <Text style={styles.noteText}>
                     {`1 = ALGORITHM
 2 = DEVIDE AND CONCURE
@@ -109,7 +109,7 @@ const Sem1 = () => {
 
               {subject === 'PS' && (
                 <View style={styles.noteContainer}>
-                  <Text style={styles.note}>NOTE</Text>
+                  <Text style={styles.note}>UNIT'S LIST:-</Text>
                   <Text style={styles.noteText}>
                     {`1 = PROBABLITY AND THEOREMS IN PROBOBLITY
 2 = PROBABLITY DISTRIBUTIONS
@@ -123,7 +123,7 @@ const Sem1 = () => {
 
               {subject === 'DBMS' && (
                 <View style={styles.noteContainer}>
-                  <Text style={styles.note}>NOTE</Text>
+                  <Text style={styles.note}>UNIT'S LIST:-</Text>
                   <Text style={styles.noteText}>
                     {`1 = INTRODUCTION TO DBMS
 2 = BASICS OF RELATIONAL METHOD
@@ -137,7 +137,7 @@ const Sem1 = () => {
 
               {subject === 'FLAT' && (
                 <View style={styles.noteContainer}>
-                  <Text style={styles.note}>NOTE</Text>
+                  <Text style={styles.note}>UNIT'S LIST:-</Text>
                   <Text style={styles.noteText}>
                     {`1 = INTRODUCTION TO AUTOMATA
 2 = FINATE AUTOMATA
@@ -151,7 +151,7 @@ const Sem1 = () => {
 
               {subject === 'DLD' && (
                 <View style={styles.noteContainer}>
-                  <Text style={styles.note}>NOTE</Text>
+                  <Text style={styles.note}>UNIT'S LIST:-</Text>
                   <Text style={styles.noteText}>
                     {`1 = NUMBER SYSTEMS
 2 = COMBINATIONAL CIRCUIT

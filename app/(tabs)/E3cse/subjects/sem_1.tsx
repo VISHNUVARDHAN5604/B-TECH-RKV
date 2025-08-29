@@ -79,7 +79,7 @@ const Sem1 = () => {
 
               {subject === 'CN' && (
                 <View style={styles.noteContainer}>
-                  <Text style={styles.note}>NOTE</Text>
+                  <Text style={styles.note}>UNIT'S LIST:-</Text>
                   <Text style={styles.noteText}>
                     {`1 = INTRODUCTION
 2 = THE DATA LINK LAYER
@@ -93,7 +93,7 @@ const Sem1 = () => {
 
               {subject === 'OS' && (
                 <View style={styles.noteContainer}>
-                  <Text style={styles.note}>NOTE</Text>
+                  <Text style={styles.note}>UNIT'S LIST:-</Text>
                   <Text style={styles.noteText}>
                     {`:-1 = INTRODUCTION
 2 = PROCESS MANAGEMENT
@@ -107,7 +107,7 @@ const Sem1 = () => {
 
               {subject === 'SE' && (
                 <View style={styles.noteContainer}>
-                  <Text style={styles.note}>NOTE</Text>
+                  <Text style={styles.note}>UNIT'S LIST:-</Text>
                   <Text style={styles.noteText}>
                     {`1 = INTRODUCTION
 2 = SOFTWARE PROJECT MANAGEMENT

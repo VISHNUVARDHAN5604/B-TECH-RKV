@@ -14,44 +14,44 @@ const Sem1 = () => {
 
   const unitLinks: Record<string, Record<string, string>> = {
     DSP: {
-      'Unit 1': '',
-      'Unit 2': '',
-      'Unit 3': '',
-      'Unit 4': '',
-      'Unit 5': '',
-      'Unit 6': '',
+      'Unit 1': 'https://drive.google.com/file/d/1fbKuztDNrlrmsAllMShAgvPtcdP3reRx/view?usp=drive_link',
+      'Unit 2': 'https://drive.google.com/file/d/1u_qk_7VhSeqXFjn7pFE_x8IVBSZwuSaV/view?usp=drive_link',
+      'Unit 3': 'https://drive.google.com/file/d/1pG7M7PXL0dlao-u_cgBtG7JQgdF3KoK3/view?usp=drive_link',
+      'Unit 4': 'https://drive.google.com/file/d/1-ieervlptH75jSz9PJcmwCkWj7mnm9CF/view?usp=drive_link',
+      'Unit 5': 'https://drive.google.com/file/d/1ysZ4ct5LWgzg5AulqUAwwJkDCbGAG_w1/view?usp=drive_link',
+      'Unit 6': 'https://docs.google.com/presentation/d/13sPJlN-PIw7c02WtQXwyBhh69LCQVFY4/edit?usp=drive_link&ouid=100312816534997635995&rtpof=true&sd=true',
     },
     WT: {
-      'Unit 1': '',
-      'Unit 2': '',
+      'Unit 1': 'https://drive.google.com/file/d/1moJ6iyV319YEVGO4-Kwi6JEbZvGBDtRi/view?usp=drive_link',
+      'Unit 2': 'https://drive.google.com/file/d/1VVF-TBOGBILkyBmUYVoo24DsEtmimuOq/view?usp=drive_link',
       'Unit 3': '',
       'Unit 4': '',
-      'Unit 5': '',
-      'Unit 6': '',
+      'Unit 5': 'https://drive.google.com/file/d/1fpnhUccGdlHQm48Oalzxrj6xwBDBOBzn/view?usp=drive_link',
+      'Unit 6': 'https://drive.google.com/file/d/1uSoE844ecYH64JOFRlbH-5cp1H1Scp08/view?usp=drive_link',
     },
     CD: {
-      'Unit 1': '',
-      'Unit 2': '',
-      'Unit 3': '',
-      'Unit 4': '',
-      'Unit 5': '',
-      'Unit 6': '',
+      'Unit 1': 'https://drive.google.com/file/d/1FMHYYpeFqCVBuC3sYs9OHvmytJ4zPcdS/view?usp=drive_link',
+      'Unit 2': 'https://drive.google.com/file/d/1n8td-caTxHZzbNKmdHpRB3ClD1I6dIP7/view?usp=drive_link',
+      'Unit 3': 'https://drive.google.com/file/d/17SrZ90OLUV5Wvi0eXrCkad0JSih0gKg3/view?usp=drive_link',
+      'Unit 4': 'https://drive.google.com/file/d/16pKSUjEPClWqg8bzckzwKrhGbSWyBZAg/view?usp=drive_link',
+      'Unit 5': 'https://drive.google.com/file/d/1PZtDIVPEAoMI6pIussxAyN27U3bs5s_t/view?usp=drive_link',
+      'Unit 6': 'https://drive.google.com/file/d/1b3OyguSf6rHF490BElGQvHXOvCVlialQ/view?usp=drive_link',
     },
     COA: {
-      'Unit 1': '',
-      'Unit 2': '',
-      'Unit 3': '',
-      'Unit 4': '',
-      'Unit 5': '',
-      'Unit 6': '',
+      'Unit 1': 'https://drive.google.com/file/d/1s2sqDQaZryHCuTCG3Hwk4Fc2KUuilNL-/view?usp=drive_link',
+      'Unit 2': 'https://drive.google.com/file/d/1s2sqDQaZryHCuTCG3Hwk4Fc2KUuilNL-/view?usp=drive_link',
+      'Unit 3': 'https://drive.google.com/file/d/1s2sqDQaZryHCuTCG3Hwk4Fc2KUuilNL-/view?usp=drive_link',
+      'Unit 4': 'https://drive.google.com/file/d/1s2sqDQaZryHCuTCG3Hwk4Fc2KUuilNL-/view?usp=drive_link',
+      'Unit 5': 'https://drive.google.com/file/d/14xzd45c06ASRZodBxWD0HqAwvuLNiraH/view?usp=drive_link',
+      'Unit 6': 'https://drive.google.com/file/d/14xzd45c06ASRZodBxWD0HqAwvuLNiraH/view?usp=drive_link',
     },
     IOR: {
-     'Unit 1': '',
-      'Unit 2': '',
-      'Unit 3': '',
-      'Unit 4': '',
-      'Unit 5': '',
-      'Unit 6': '',
+     'Unit 1': 'https://drive.google.com/file/d/1gyKKhsZfnMLQcKApstltyGfMhoIoNUju/view?usp=drive_link',
+      'Unit 2': 'https://drive.google.com/file/d/1acOeE68ptT9XOf-hz5RFqeG8DIPQFTCS/view?usp=drive_link',
+      'Unit 3': 'https://drive.google.com/file/d/10gAn9SU_mSGOrWbQmzltEgQht5oPcLIj/view?usp=drive_link',
+      'Unit 4': 'https://drive.google.com/file/d/1ZqPM15chXMVd7sNpIQgaxkxeC9_GfKvV/view?usp=drive_link',
+      'Unit 5': 'https://drive.google.com/file/d/1pYamhFU0zrzadWVnaZ55512h5y81QLtZ/view?usp=drive_link',
+      'Unit 6': 'https://drive.google.com/file/d/1UYNM10c1BWq85XErgpilpEKjncp5P1zI/view?usp=drive_link',
     },
   };
 
@@ -69,7 +69,7 @@ const Sem1 = () => {
       {subjects.map((subject, idx) => (
         <View key={idx} style={styles.subjectCard}>
           <TouchableOpacity style={styles.subjectHeader} onPress={() => toggleUnits(subject)}>
-            <MaterialIcons name="menu-book" size={24} color="#f00d0dff" />
+            <MaterialIcons name="menu-book" size={24} color="#120773ff" />
             <Text style={styles.subjectTitle}>{subject}</Text>
             <MaterialIcons
               name={visibleUnits === subject ? 'keyboard-arrow-up' : 'keyboard-arrow-down'}
@@ -94,7 +94,7 @@ const Sem1 = () => {
             </View>
             {subject === 'DSP' && (
                             <View style={styles.noteContainer}>
-                              <Text style={styles.note}>NOTE</Text>
+                              <Text style={styles.note}>UNIT'S LIST:-</Text>
                               <Text style={styles.noteText}>
                                 {`1 = PYTHON BASICS FOR DATA SCIENCE
 2 = WORKONG WITH DATA IN PYTHON
@@ -107,7 +107,7 @@ const Sem1 = () => {
                           )}
               {subject === 'WT' && (
                             <View style={styles.noteContainer}>
-                              <Text style={styles.note}>NOTE</Text>
+                              <Text style={styles.note}>UNIT'S LIST:-</Text>
                               <Text style={styles.noteText}>
                                 {`1 = INTRODUCTION TO WEB WORLD
 2 = SERVER PROGRAMMING
@@ -120,7 +120,7 @@ const Sem1 = () => {
                           )}
                 {subject === 'CD' && (
                             <View style={styles.noteContainer}>
-                              <Text style={styles.note}>NOTE</Text>
+                              <Text style={styles.note}>UNIT'S LIST:-</Text>
                               <Text style={styles.noteText}>
                                 {`1 = INTRODUCTION TO COMPILER
 2 = SYNTAX ANALYSIS-I
@@ -133,7 +133,7 @@ const Sem1 = () => {
                           )}
             {subject === 'COA' && (
                             <View style={styles.noteContainer}>
-                              <Text style={styles.note}>NOTE</Text>
+                              <Text style={styles.note}>UNIT'S LIST:-</Text>
                               <Text style={styles.noteText}>
                                 {`1 = BASIC FUNCTION BLOCKS OF COMPUTER
 2 = ALU
@@ -146,7 +146,7 @@ const Sem1 = () => {
                           )}
             {subject === 'IOR' && (
                             <View style={styles.noteContainer}>
-                              <Text style={styles.note}>NOTE</Text>
+                              <Text style={styles.note}>UNIT'S LIST:-</Text>
                               <Text style={styles.noteText}>
                                 {`1 = DECISION MAKING
 2 = LINEAR PROGRAMMING PROBLEMS

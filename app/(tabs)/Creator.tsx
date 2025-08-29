@@ -1,79 +1,80 @@
+
 import React from 'react';
 import { View, Text, StyleSheet, Linking, TouchableOpacity, ScrollView } from 'react-native';
+import { LinearGradient } from 'expo-linear-gradient';
 
 const creators = [
   {
     name: 'Yagggim Vishnu Vardhan',
     email: 'vishnuvardhankumar8106@gmail.com',
     bio: 'React Native App Developer\nCSE UG Student at RGUKT RK Valley',
-    linkedin: 'https://www.linkedin.com/in/vishnu-vardhan-9824b6324',
   },
   {
-    name: 'PUNEETH',
+    name: 'Puneeth',
     email: 'PUNEETH@gmail.com',
-    bio: 'APP ADVICER\nCSE UG Student at RGUKT RK Valley',
-    linkedin: 'https://www.linkedin.com/in/puneeth0121?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', // replace with real if available
+    bio: 'APP GUIDE\nCSE UG Student at RGUKT RK Valley',
   },
 ];
 
 const AllCreators = () => {
   return (
-    <ScrollView style={styles.back}>
-      {creators.map((creator, index) => (
-        <View key={index} style={styles.container}>
-          <Text style={styles.name}>{creator.name}</Text>
-          <Text style={styles.bio}>{creator.bio}</Text>
+    <LinearGradient
+      colors={['#ffffff', '#08b9b6ff']} // gradient background
+      style={styles.background}
+    >
+      <ScrollView contentContainerStyle={styles.scrollContent}>
+        {creators.map((creator, index) => (
+          <View key={index} style={styles.container}>
+            <Text style={styles.name}>{creator.name}</Text>
+            <Text style={styles.bio}>{creator.bio}</Text>
 
-          <TouchableOpacity
-            style={styles.button}
-            onPress={() => Linking.openURL(`mailto:${creator.email}`)}
-          >
-            <Text style={styles.buttonText}>📧 Email</Text>
-          </TouchableOpacity>
-
-          <TouchableOpacity
-            style={[styles.button, { backgroundColor: '#0077B5' }]}
-            onPress={() => Linking.openURL(creator.linkedin)}
-          >
-            <Text style={styles.buttonText}>🌐 LinkedIn</Text>
-          </TouchableOpacity>
-        </View>
-      ))}
-    </ScrollView>
+            <TouchableOpacity
+              style={styles.button}
+              onPress={() => Linking.openURL(`mailto:${creator.email}`)}
+            >
+              <Text style={styles.buttonText}>📧 Email</Text>
+            </TouchableOpacity>
+          </View>
+        ))}
+      </ScrollView>
+    </LinearGradient>
   );
 };
 
 export default AllCreators;
 
 const styles = StyleSheet.create({
-  back: {
+  background: {
     flex: 1,
-    backgroundColor: 'lightyellow',
+  },
+  scrollContent: {
+    paddingVertical: 20,
   },
   container: {
     padding: 24,
     alignItems: 'center',
-    backgroundColor: 'cyan',
+    backgroundColor: 'rgba(57, 127, 171, 0.85)', // semi-transparent card
     borderRadius: 16,
-    margin: 20,
+    marginHorizontal: 20,
+    marginBottom: 20,
     elevation: 5,
   },
   name: {
     fontSize: 21,
     fontWeight: 'bold',
-    color: 'green',
+    color: 'white',
     marginBottom: 10,
     textAlign: 'center',
   },
   bio: {
     fontSize: 16,
-    color: '#444',
+    color: '#ddd',
     textAlign: 'center',
     marginBottom: 20,
     lineHeight: 22,
   },
   button: {
-    backgroundColor: 'red',
+    backgroundColor: 'white',
     paddingVertical: 12,
     paddingHorizontal: 24,
     borderRadius: 12,
@@ -82,7 +83,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   buttonText: {
-    color: '#fff',
+    color: 'red',
     fontSize: 16,
     fontWeight: '600',
   },

@@ -1,85 +1,88 @@
-
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 import React from 'react';
 import { useRouter } from 'expo-router';
+import { LinearGradient } from 'expo-linear-gradient';
 
 const LayoutScreen = () => {
   const router = useRouter();
 
   return (
-    <View style={styles.background}>
+    <LinearGradient
+      colors={['#ffffffff', '#04a7f9ff']} // same gradient style
+      style={styles.background}
+    >
       <View style={styles.container}>
-        <View style={styles.mybox}>
-          <Text style={styles.heading}>Choose E1 SEMESTER</Text>
+        <View style={styles.selectionBox}>
+          <Text style={styles.heading}>Choose E1 Semester</Text>
 
           <TouchableOpacity
-            style={styles.box}
+            style={styles.card}
             onPress={() => router.push('/(tabs)/E1cse/subjects/sem_1')}
           >
-            <Text style={styles.boxText}>SEM - 1</Text>
+            <Text style={styles.cardText}>SEM - 1</Text>
           </TouchableOpacity>
 
           <TouchableOpacity
-            style={styles.box}
+            style={styles.card}
             onPress={() => router.push('/(tabs)/E1cse/subjects/sem_2')}
           >
-            <Text style={styles.boxText}>SEM - 2</Text>
+            <Text style={styles.cardText}>SEM - 2</Text>
           </TouchableOpacity>
         </View>
       </View>
-    </View>
+    </LinearGradient>
   );
 };
 
 const styles = StyleSheet.create({
   background: {
     flex: 1,
-    backgroundColor: 'lightgreen',
-    opacity: 0.6,
   },
   container: {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
+    paddingHorizontal: 20,
   },
-  mybox: {
-    width: '90%',
-    backgroundColor: 'rgba(255, 255, 255, 0.15)',
-    borderRadius: 20,
-    padding: 20,
-    shadowColor: '#009',
-    shadowOffset: { width: 0, height: 4 },
-    shadowOpacity: 0.3,
-    shadowRadius: 6,
-    elevation: 8,
+
+  // Outer Box
+  selectionBox: {
+    backgroundColor: '#69b7e3',
+    borderRadius: 16,
+    padding: 18,
+    width: '95%',
+    shadowColor: '#000',
+    shadowOffset: { width: 2, height: 3 },
+    shadowOpacity: 0.15,
+    shadowRadius: 5,
+    elevation: 6,
     alignItems: 'center',
-    borderWidth: 1,
-    borderColor: 'rgba(13, 148, 135, 0.4)',
   },
   heading: {
-    fontSize: 26,
-    fontWeight: 'bold',
-    color: 'black',
-    marginBottom: 20,
-  },
-  box: {
-    width: '90%',
-    backgroundColor: 'rgba(68, 186, 164, 0.6)', // opacity 0.6
-    borderRadius: 15,
-    paddingVertical: 15,
-    marginVertical: 8,
-    alignItems: 'center',
-    borderWidth: 1,
-    borderColor: 'rgba(201, 69, 69, 0.4)',
-  },
-  
-  boxText: {
-    color: '#222', // dark color
     fontSize: 20,
     fontWeight: 'bold',
-    fontStyle: 'italic', // italic text
+    color: '#1e3a8a',
+    marginBottom: 14,
+    textAlign: 'center',
   },
-  
+
+  // Cards inside box
+  card: {
+    backgroundColor: '#f0f9ff',
+    paddingVertical: 16,
+    marginVertical: 8,
+    borderRadius: 12,
+    alignItems: 'center',
+    borderWidth: 1,
+    borderColor: '#93c5fd',
+    width: '90%',
+  },
+  cardText: {
+    fontSize: 18,
+    fontWeight: '600',
+    color: '#1e3a8a',
+    letterSpacing: 0.5,
+  },
 });
 
 export default LayoutScreen;
